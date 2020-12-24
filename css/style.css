@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.shapka{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.all{
+	height: 600px;
+}
+.par{
+	width: 100%;
+}
+.str{
+ width: 20%;
+ padding: 10px;
+ position: fixed;
+ bottom: 10px; 
+ right: -13%;
+ cursor: pointer;
+}
+.str img{
+	width: 60px;
+	height: auto;
+}
+.marquee{
+	margin-top: -40px;
+   margin-bottom: 10px;
+   margin-left: -80px;
+}
+.zg{
+   font-size: 125px;
+   text-align: left;
+   margin-top: 2px;
+   font-family: 'Archivo Black', sans-serif;
+ /*font-family: 'Indie Flower', cursive;*/
+ 
+}
+.nz{
+text-align: right;
+margin-right: 565px;
+margin-top: -30px;
+}
+#one{
+ width: 90px;
+ height: auto;
+ position: absolute;
+top: 550px;
+ margin-left: 200px;
+}
+#tw{
+ width: 90px;
+ height: auto;
+  position: absolute;
+ top: 550px;
+ margin-left: 900px;
+}
+header{
+color: black;
+padding: 5%;
+font-family: Arial, sans-serif;
+min-height: 700px;
+}
+header h1{
+	font-size: 2.5em;
+	margin-bottom: 1%;
+}
+
+body{
+	font-family: Arial, sans-serif;
+}
+.par{
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+.login a{
+font-size: 22px;
+	text-decoration: none;
+	text-align: left;
+}
+
+

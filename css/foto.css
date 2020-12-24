@@ -1,0 +1,137 @@
+.slider{
+ position: relative;
+ text-align: center;
+ top:50px;
+}
+.slides article{
+width: 20%;
+float: left;
+}
+.slides .image{
+width: 500%;
+line-height: 0;
+}
+.slides .image img{
+height: 
+}
+.overflow{
+ overflow: hidden;
+ width: 100%;
+}
+article img{
+ width: auto;
+ height: 400px;
+}
+.all input{
+display: none;
+}
+#switch1:checked ~ .slides .image{
+ margin-left: 0;
+}
+#switch2:checked ~ .slides .image{
+ margin-left: -100%;
+}
+.controls{
+ width: 100%;
+ height: 50px;
+ margin: -25% 0 0 0;
+
+}
+.active label{
+ border-radius: 10px;
+ display: inline-block;
+ width: 15px;
+ height: 15px;
+ background-color: grey;
+}
+.active{
+ margin: 23% 0 0;
+text-align: center;
+}
+.active label:hover{
+ background-color: #18a3dd;
+ border-color: black;
+}
+.slides .image{
+transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sliders{
+ position: relative;
+ text-align: center;
+ top:50px;
+}
+.slidess articles{
+width: 20%;
+float: left;
+}
+.slidess .images{
+width: 500%;
+line-height: 0;
+}
+.slidess .images img{
+height: 
+}
+.overflows{
+ overflow: hidden;
+ width: 100%;
+}
+article img{
+ width: auto;
+ height: 400px;
+}
+.alls input{
+display: none;
+}
+#switch1s:checked ~ .slidess .images{
+ margin-left: 0;
+}
+#switch2s:checked ~ .slidess .images{
+ margin-left: -100%;
+}
+#switch3s:checked ~ .slidess .images{
+ margin-left: -200%;
+}/*
+#switch4s:checked ~ .slidess .images{
+ margin-left: -300%;
+}
+#switch5s:checked ~ .slidess .images{
+ margin-left: -400%;
+}*/
+.controlss{
+ width: 100%;
+ height: 50px;
+ margin: -25% 0 0 0;
+
+}
+.actives label{
+ border-radius: 10px;
+ display: inline-block;
+ width: 15px;
+ height: 15px;
+ background-color: grey;
+}
+.actives{
+ margin: 23% 0 0;
+text-align: center;
+}
+.actives label:hover{
+ background-color: #18a3dd;
+ border-color: black;
+}
+.slidess .images{
+transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000)
+}

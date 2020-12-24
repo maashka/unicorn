@@ -1,0 +1,58 @@
+/*.nv{
+	margin-top: -40px;
+}
+.kn{
+	color: white;
+    margin-right: -540px;
+    font-size: 20px;
+}*/
+nav{
+	background-color: #333;
+	overflow: hidden;
+	  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  height: 65px;
+}
+nav a{
+	  display:inline-block;
+	display: block;
+	float: left;
+	color: #C4B5B5;
+	font-size: 22px;
+	padding: 2px;
+	text-decoration: none;
+	text-align: center;
+	width: 15%;	
+
+}
+nav a:hover{
+ color: white;
+ cursor: pointer;
+}
+.search{
+margin-top: 15px;
+}
+.search input{
+	margin-left: -20px;
+	color: black;
+	height: 20px;
+	width: 200px;
+}
+.cart img{
+width: 25px;
+height: auto;
+}
+#nav img{
+	width: 90px;
+	height: auto;
+	margin-left: -120px;
+}
+#nav{
+	height: 100px;
+
+}
+#nav a{
+		margin-left: -25px;
+}

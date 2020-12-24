@@ -1,0 +1,16 @@
+
+body{
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+text-align: center;
+
+}
+a{
+	padding: 50px;
+	text-align: left;
+}
+.Loglog{
+   font-family: 'Archivo Black', sans-serif;
+ /*font-family: 'Indie Flower', cursive;*/
+}
